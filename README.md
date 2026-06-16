@@ -1,7 +1,7 @@
 # QA Portfolio
 
-Mi portafolio de proyectos de Quality Assurance.
+ portfolio showcasing my Quality Assurance projects, including test plans, test cases, bug reports, and testing evidence.
 
-## Proyectos
+## Projects
 
 - SauceDemo
