@@ -6,7 +6,7 @@ This repository contains manual testing projects developed to practice and demon
 
 ## Projects
 
-### SauceDemo
+### 1. SauceDemo
 
 **Application Type:** E-commerce Web Application
 
@@ -28,12 +28,9 @@ This repository contains manual testing projects developed to practice and demon
 | Cart     | 6          | PASS   |
 | Checkout | 6          | PASS   |
 
-#### Overall Summary
+**Total Test Cases:** 27
 
-* Total Test Cases Executed: 27
-* Passed: 27
-* Failed: 0
-* Pass Rate: 100%
+**Pass Rate:** 100%
 
 #### Deliverables
 
@@ -43,14 +40,57 @@ This repository contains manual testing projects developed to practice and demon
 * Bug Reports
 * Test Evidence
 
-#### Tools Used
+---
 
-* Manual Testing
-* Git
-* GitHub
-* Google Chrome
-* Markdown
+### 2. OrangeHRM
+
+**Application Type:** Human Resource Management System (HRMS)
+
+**Testing Type:** Manual Testing
+
+#### Modules Covered
+
+* Login
+* Dashboard
+* Admin
+* PIM
+* Leave
+* Recruitment
+
+#### Deliverables
+
+* Test Plan
+* Test Cases
+* Test Execution Results
+* Bug Reports
+* Test Evidence
+
+**Status:** In Progress
 
 ---
 
-More QA projects will be added as I continue my learning journey.
+## Skills Demonstrated
+
+* Manual Testing
+* Test Planning
+* Test Case Design
+* Test Execution
+* Defect Documentation
+* Exploratory Testing
+* Evidence Collection
+* Git
+* GitHub
+* Markdown Documentation
+
+## Tools Used
+
+* Google Chrome
+* Git
+* GitHub
+* Markdown
+* OrangeHRM
+* SauceDemo
+
+---
+
+More QA projects and automation testing projects will be added as part of my continuous learning journey.
