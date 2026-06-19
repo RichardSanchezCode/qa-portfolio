@@ -1,4 +1,4 @@
-# Dashboard Test Execution Results
+# Admin Test Execution Results
 
 | Test Case ID | Result |
 | ------------ | ------ |
