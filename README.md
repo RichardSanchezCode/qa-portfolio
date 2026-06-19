@@ -48,7 +48,7 @@ This repository contains manual testing projects developed to practice and demon
 
 **Testing Type:** Manual Testing
 
-#### Modules Covered
+#### Modules Tested
 
 * Login
 * Dashboard
@@ -59,13 +59,13 @@ This repository contains manual testing projects developed to practice and demon
 
 #### Test Results
 
-| Module   | Test Cases | Status |
-| -------- | ---------- | ------ |
-| Login    | 6          | PASS   |
-| Dashboard | 5         | PASS   |
-| Admin     | 5          | PASS   |
-| PIM | 5          | PASS   |
-| Leave | 5          | PASS   |
+| Module      | Test Cases | Status |
+| ----------- | ---------- | ------ |
+| Login       | 6          | PASS   |
+| Dashboard   | 5          | PASS   |
+| Admin       | 5          | PASS   |
+| PIM         | 5          | PASS   |
+| Leave       | 5          | PASS   |
 | Recruitment | 5          | PASS   |
 
 **Total Test Cases:** 31
