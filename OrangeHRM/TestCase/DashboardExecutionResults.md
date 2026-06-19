@@ -10,9 +10,9 @@
 
 ## Summary
 
-Total Test Cases Executed: 6
+Total Test Cases Executed: 5
 
-Passed: 6
+Passed: 5
 
 Failed: 0
 
