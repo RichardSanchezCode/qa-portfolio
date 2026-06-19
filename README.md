@@ -57,6 +57,21 @@ This repository contains manual testing projects developed to practice and demon
 * Leave
 * Recruitment
 
+#### Test Results
+
+| Module   | Test Cases | Status |
+| -------- | ---------- | ------ |
+| Login    | 6          | PASS   |
+| Dashboard | 5         | PASS   |
+| Admin     | 5          | PASS   |
+| PIM | 5          | PASS   |
+| Leave | 5          | PASS   |
+| Recruitment | 5          | PASS   |
+
+**Total Test Cases:** 31
+
+**Pass Rate:** 100%
+
 #### Deliverables
 
 * Test Plan
@@ -64,8 +79,6 @@ This repository contains manual testing projects developed to practice and demon
 * Test Execution Results
 * Bug Reports
 * Test Evidence
-
-**Status:** In Progress
 
 ---
 
