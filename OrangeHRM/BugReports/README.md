@@ -1,5 +1,5 @@
-# Test Evidence
+# Bug Reports
 
-This folder contains screenshots and other supporting evidence collected during test execution.
+No confirmed defects were identified during the initial testing cycle.
 
-Evidence is organized by module to support test results and defect reports.
+Additional exploratory testing may be performed to identify potential defects and usability issues.
