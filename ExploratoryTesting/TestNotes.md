@@ -134,3 +134,15 @@ User was redirected to the login page.
 
 Status:
 PASS
+
+---
+
+## Observation 10
+
+Repeated Remove/Add actions caused the checkbox position to change and generated duplicated "A checkbox" labels.
+
+Result:
+Potential defect identified.
+
+Reference:
+BUG-001.md
