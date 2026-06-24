@@ -2,7 +2,7 @@
 
 Welcome to my Quality Assurance portfolio.
 
-This repository contains manual testing projects developed to practice and demonstrate QA skills, including test planning, test case design, test execution, bug reporting, and test evidence documentation.
+This repository contains manual testing and exploratory testing projects developed to practice and demonstrate QA skills, including test planning, test case design, test execution, bug reporting, exploratory testing, and test evidence documentation.
 
 ## Projects
 
@@ -82,14 +82,54 @@ This repository contains manual testing projects developed to practice and demon
 
 ---
 
+### 3. Exploratory Testing
+
+**Application Type:** QA Practice Web Application
+
+**Testing Type:** Exploratory Testing
+
+#### Modules Explored
+
+* Form Authentication
+* Dynamic Controls
+* Dropdown
+* Inputs
+
+#### Test Results
+
+| Area                | Status                |
+| ------------------- | --------------------- |
+| Form Authentication | PASS                  |
+| Dynamic Controls    | PASS (1 Defect Found) |
+| Dropdown            | PASS                  |
+| Inputs              | PASS                  |
+
+#### Defects Identified
+
+| Bug ID  | Severity | Status |
+| ------- | -------- | ------ |
+| BUG-001 | Medium   | Open   |
+
+#### Deliverables
+
+* Test Notes
+* Bug Reports
+* Test Evidence
+
+---
+
 ## Skills Demonstrated
 
 * Manual Testing
+* Exploratory Testing
 * Test Planning
 * Test Case Design
 * Test Execution
 * Defect Documentation
-* Exploratory Testing
+* Bug Reporting
+* Session Testing
+* Authentication Testing
+* UI Testing
 * Evidence Collection
 * Git
 * GitHub
@@ -101,9 +141,10 @@ This repository contains manual testing projects developed to practice and demon
 * Git
 * GitHub
 * Markdown
-* OrangeHRM
 * SauceDemo
+* OrangeHRM
+* The Internet Test Site
 
 ---
 
-More QA projects and automation testing projects will be added as part of my continuous learning journey.
+More QA, SQL, API Testing, and Automation Testing projects will be added as part of my continuous learning journey.
