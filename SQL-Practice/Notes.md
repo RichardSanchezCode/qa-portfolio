@@ -91,3 +91,44 @@ Common QA Usage:
 * Validate test data.
 * Confirm records were created successfully.
 * Investigate defects related to stored data.
+
+---
+
+## Lesson 3 - ORDER BY
+
+The ORDER BY clause is used to sort query results.
+
+Example table:
+
+| id | first_name | salary |
+| -- | ---------- | ------ |
+| 1  | John       | 3000   |
+| 2  | Sarah      | 5000   |
+| 3  | Mike       | 4000   |
+
+Example:
+
+```sql id="q0af2j"
+SELECT *
+FROM employees
+ORDER BY salary DESC;
+```
+
+Expected Result:
+
+| id | first_name | salary |
+| -- | ---------- | ------ |
+| 2  | Sarah      | 5000   |
+| 3  | Mike       | 4000   |
+| 1  | John       | 3000   |
+
+Purpose:
+
+Sort query results in ascending or descending order.
+
+Common QA Usage:
+
+* Review the latest records.
+* Analyze highest or lowest values.
+* Sort users alphabetically.
+* Validate data ordering in reports.
