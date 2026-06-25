@@ -252,3 +252,57 @@ Key QA Applications:
 Outcome:
 
 Successfully completed the SQL Fundamentals module focused on Quality Assurance activities.
+
+
+---
+
+## Lesson 5 - INNER JOIN
+
+The INNER JOIN clause combines records from two tables based on a matching condition.
+
+Example tables:
+
+### users
+
+| user_id | name  |
+| ------- | ----- |
+| 1       | John  |
+| 2       | Sarah |
+| 3       | Mike  |
+
+### orders
+
+| order_id | user_id | amount |
+| -------- | ------- | ------ |
+| 101      | 1       | 50     |
+| 102      | 2       | 100    |
+| 103      | 1       | 75     |
+
+Example:
+
+```sql
+SELECT users.name, orders.amount
+FROM users
+INNER JOIN orders
+ON users.user_id = orders.user_id;
+```
+
+Expected Result:
+
+| name  | amount |
+| ----- | ------ |
+| John  | 50     |
+| Sarah | 100    |
+| John  | 75     |
+
+Purpose:
+
+Combine information from multiple tables.
+
+Common QA Usage:
+
+* Verify relationships between records.
+* Validate user transactions.
+* Confirm orders belong to the correct user.
+* Investigate backend data issues.
+* Validate data consistency across tables.
