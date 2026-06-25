@@ -364,3 +364,46 @@ Common QA Usage:
 * Verify data integrity.
 * Detect failed processes.
 * Investigate backend issues.
+
+---
+
+## Lesson 7 - GROUP BY
+
+The GROUP BY clause groups rows that have the same values.
+
+Example table:
+
+### orders
+
+| order_id | user_id | amount |
+| -------- | ------- | ------ |
+| 101      | 1       | 50     |
+| 102      | 2       | 100    |
+| 103      | 1       | 75     |
+| 104      | 2       | 200    |
+| 105      | 3       | 80     |
+
+Example:
+
+SELECT user_id, COUNT(*)
+FROM orders
+GROUP BY user_id;
+
+Expected Result:
+
+| user_id | count |
+| ------- | ----- |
+| 1       | 2     |
+| 2       | 2     |
+| 3       | 1     |
+
+Purpose:
+
+Summarize information by groups.
+
+Common QA Usage:
+
+* Validate reports.
+* Count records by category.
+* Analyze user activity.
+* Verify aggregated data.
