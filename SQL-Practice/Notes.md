@@ -306,3 +306,61 @@ Common QA Usage:
 * Confirm orders belong to the correct user.
 * Investigate backend data issues.
 * Validate data consistency across tables.
+
+---
+
+## Lesson 6 - LEFT JOIN
+
+The LEFT JOIN clause returns all records from the left table and matching records from the right table.
+
+If no match exists, NULL values are returned.
+
+Example tables:
+
+### users
+
+| user_id | name  |
+| ------- | ----- |
+| 1       | John  |
+| 2       | Sarah |
+| 3       | Mike  |
+| 4       | Emma  |
+
+### orders
+
+| order_id | user_id | amount |
+| -------- | ------- | ------ |
+| 101      | 1       | 50     |
+| 102      | 2       | 100    |
+| 103      | 1       | 75     |
+
+Example:
+
+```sql
+SELECT users.name, orders.amount
+FROM users
+LEFT JOIN orders
+ON users.user_id = orders.user_id;
+```
+
+Expected Result:
+
+| name  | amount |
+| ----- | ------ |
+| John  | 50     |
+| Sarah | 100    |
+| John  | 75     |
+| Mike  | NULL   |
+| Emma  | NULL   |
+
+Purpose:
+
+Identify records that do not have matching relationships.
+
+Common QA Usage:
+
+* Find orphan records.
+* Validate missing relationships.
+* Verify data integrity.
+* Detect failed processes.
+* Investigate backend issues.
