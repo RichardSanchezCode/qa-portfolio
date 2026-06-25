@@ -8,49 +8,29 @@ The purpose is to learn how QA professionals use SQL to validate data, verify ap
 
 ## Topics Covered
 
-### 1. SELECT Statements
+### Basic Queries
 
-Retrieve data from database tables.
+* SELECT
+* WHERE
+* ORDER BY
 
-Examples:
-
-* Retrieve all records
-* Retrieve specific columns
-* Retrieve multiple columns
-
-### 2. WHERE Clause
-
-Filter records based on conditions.
-
-Examples:
-
-* Search by ID
-* Search by name
-* Search by department
-* Filter numeric values
-
-### 3. ORDER BY
-
-Sort query results.
-
-Examples:
-
-* Ascending order
-* Descending order
-* Alphabetical sorting
-* Numeric sorting
-
-### 4. Aggregate Functions
-
-Summarize and analyze data.
-
-Functions:
+### Aggregate Functions
 
 * COUNT()
 * AVG()
-* MAX()
 * MIN()
+* MAX()
 * SUM()
+
+### Table Relationships
+
+* INNER JOIN
+* LEFT JOIN
+
+### Data Analysis
+
+* GROUP BY
+* HAVING
 
 ## Files
 
@@ -60,6 +40,9 @@ Functions:
 | FilteringQueries.sql   | WHERE clause examples               |
 | SortingQueries.sql     | ORDER BY examples                   |
 | AggregateFunctions.sql | Aggregate function examples         |
+| JoinQueries.sql        | INNER JOIN and LEFT JOIN examples   |
+| GroupingQueries.sql    | GROUP BY examples                   |
+| HavingQueries.sql      | HAVING clause examples              |
 | Notes.md               | SQL learning notes and explanations |
 
 ## QA Skills Demonstrated
@@ -81,7 +64,7 @@ Functions:
 
 ## Status
 
-Completed - SQL Fundamentals
+Completed - SQL Fundamentals for QA
 
 ## Next Topics
 
