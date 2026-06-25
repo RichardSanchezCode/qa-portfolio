@@ -132,3 +132,100 @@ Common QA Usage:
 * Analyze highest or lowest values.
 * Sort users alphabetically.
 * Validate data ordering in reports.
+
+---
+
+## Lesson 4 - Aggregate Functions
+
+Aggregate functions are used to summarize data.
+
+Example table:
+
+| id | first_name | salary |
+| -- | ---------- | ------ |
+| 1  | John       | 3000   |
+| 2  | Sarah      | 5000   |
+| 3  | Mike       | 4000   |
+
+### COUNT()
+
+```sql
+SELECT COUNT(*)
+FROM employees;
+```
+
+Result:
+
+3
+
+Purpose:
+
+Count the number of records.
+
+### AVG()
+
+```sql
+SELECT AVG(salary)
+FROM employees;
+```
+
+Result:
+
+4000
+
+Purpose:
+
+Calculate the average value.
+
+### MAX()
+
+```sql
+SELECT MAX(salary)
+FROM employees;
+```
+
+Result:
+
+5000
+
+Purpose:
+
+Retrieve the highest value.
+
+### MIN()
+
+```sql
+SELECT MIN(salary)
+FROM employees;
+```
+
+Result:
+
+3000
+
+Purpose:
+
+Retrieve the lowest value.
+
+### SUM()
+
+```sql
+SELECT SUM(salary)
+FROM employees;
+```
+
+Result:
+
+12000
+
+Purpose:
+
+Calculate the total value.
+
+### Common QA Usage
+
+* Count created users.
+* Verify generated records.
+* Validate totals and reports.
+* Analyze application data.
+* Investigate data discrepancies.
