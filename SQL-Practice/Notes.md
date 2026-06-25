@@ -229,3 +229,26 @@ Calculate the total value.
 * Validate totals and reports.
 * Analyze application data.
 * Investigate data discrepancies.
+
+---
+
+## SQL Fundamentals Summary
+
+Topics Completed:
+
+* SELECT
+* WHERE
+* ORDER BY
+* Aggregate Functions
+
+Key QA Applications:
+
+* Verify records created by the application
+* Validate stored data
+* Investigate defects
+* Analyze test results
+* Support backend verification
+
+Outcome:
+
+Successfully completed the SQL Fundamentals module focused on Quality Assurance activities.
