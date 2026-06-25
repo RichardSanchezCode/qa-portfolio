@@ -407,3 +407,52 @@ Common QA Usage:
 * Count records by category.
 * Analyze user activity.
 * Verify aggregated data.
+
+---
+
+## Lesson 8 - HAVING
+
+The HAVING clause filters grouped results.
+
+Difference between WHERE and HAVING:
+
+* WHERE filters rows before grouping.
+* HAVING filters groups after grouping.
+
+Example table:
+
+### orders
+
+| order_id | user_id | amount |
+| -------- | ------- | ------ |
+| 101      | 1       | 50     |
+| 102      | 2       | 100    |
+| 103      | 1       | 75     |
+| 104      | 2       | 200    |
+| 105      | 3       | 80     |
+
+Example:
+
+SELECT user_id, COUNT(*)
+FROM orders
+GROUP BY user_id
+HAVING COUNT(*) > 1;
+
+Expected Result:
+
+| user_id | count |
+| ------- | ----- |
+| 1       | 2     |
+| 2       | 2     |
+
+Purpose:
+
+Filter aggregated results.
+
+Common QA Usage:
+
+* Detect duplicate records.
+* Validate business rules.
+* Analyze grouped data.
+* Verify report accuracy.
+
