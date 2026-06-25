@@ -49,3 +49,45 @@ Retrieve all records and all columns from the employees table.
 ### QA Perspective
 
 A QA tester frequently uses SQL to verify that application actions correctly store and retrieve information from the database.
+
+---
+
+---
+
+## Lesson 2 - WHERE Clause
+
+The WHERE clause is used to filter records.
+
+Example table:
+
+| id | first_name | department |
+| -- | ---------- | ---------- |
+| 1  | John       | QA         |
+| 2  | Sarah      | HR         |
+| 3  | Mike       | QA         |
+
+Example:
+
+```sql
+SELECT *
+FROM employees
+WHERE department = 'QA';
+```
+
+Expected Result:
+
+| id | first_name | department |
+| -- | ---------- | ---------- |
+| 1  | John       | QA         |
+| 3  | Mike       | QA         |
+
+Purpose:
+
+Retrieve only the records that match a specific condition.
+
+Common QA Usage:
+
+* Verify a specific user exists.
+* Validate test data.
+* Confirm records were created successfully.
+* Investigate defects related to stored data.
