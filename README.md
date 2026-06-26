@@ -1,9 +1,3 @@
-<p align="center">
-  <img src="docs/QA_Banner.png" alt="SIMCCI Banner" width="100%">
-</p>
-
----
-
 # QA Portfolio
 
 Welcome to my Quality Assurance portfolio.
@@ -154,9 +148,3 @@ This repository contains manual testing and exploratory testing projects develop
 ---
 
 More QA, SQL, API Testing, and Automation Testing projects will be added as part of my continuous learning journey.
-
----
-
-<p align="center">
-  <img src="docs/QA_Logo.png" width="250">
-</p>
