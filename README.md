@@ -10,6 +10,16 @@ Welcome to my Quality Assurance portfolio.
 
 This repository contains manual testing and exploratory testing projects developed to practice and demonstrate QA skills, including test planning, test case design, test execution, bug reporting, exploratory testing, and test evidence documentation.
 
+## Portfolio Summary
+
+| Project             | Type                | Status      |
+| ------------------- | ------------------- | ----------- |
+| SauceDemo           | Manual Testing      | Completed   |
+| OrangeHRM           | Manual Testing      | Completed   |
+| Exploratory Testing | Exploratory Testing | Completed   |
+| SQL Practice        | SQL Fundamentals    | Completed   |
+| API Testing         | API Testing         | In Progress |
+
 ## Projects
 
 ### 1. SauceDemo
@@ -124,6 +134,44 @@ This repository contains manual testing and exploratory testing projects develop
 
 ---
 
+## 4. SQL Practice
+
+**Project Type:** SQL Fundamentals for Quality Assurance
+
+### Topics Covered
+
+* SELECT
+* WHERE
+* ORDER BY
+* Aggregate Functions (COUNT, AVG, MIN, MAX, SUM)
+* INNER JOIN
+* LEFT JOIN
+* GROUP BY
+* HAVING
+
+## Skills Demonstrated
+
+* Manual Testing
+* Exploratory Testing
+* Test Planning
+* Test Case Design
+* Test Execution
+* Bug Reporting
+* SQL Fundamentals
+* Database Validation
+* Data Analysis
+* Git
+* GitHub
+* Markdown Documentation
+
+### Deliverables
+
+* SQL Query Files
+* Learning Notes
+* Documentation
+
+---
+
 ## Skills Demonstrated
 
 * Manual Testing
@@ -147,9 +195,9 @@ This repository contains manual testing and exploratory testing projects develop
 * Git
 * GitHub
 * Markdown
-* SauceDemo
 * OrangeHRM
-* The Internet Test Site
+* SauceDemo
+* SQL
 
 ---
 
