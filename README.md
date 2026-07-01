@@ -8,129 +8,136 @@
 
 Welcome to my Quality Assurance portfolio.
 
-This repository contains manual testing and exploratory testing projects developed to practice and demonstrate QA skills, including test planning, test case design, test execution, bug reporting, exploratory testing, and test evidence documentation.
+This repository showcases my learning journey and hands-on projects in **Manual Testing**, **API Testing**, **Exploratory Testing**, and **SQL Fundamentals**. Each project demonstrates industry-standard QA practices, including test planning, test case design, test execution, bug reporting, evidence collection, and technical documentation.
 
-## Portfolio Summary
+My goal is to continuously expand this portfolio with automation, database testing, and CI/CD projects while developing the skills required for a professional QA Engineer role.
 
-| Project             | Type                | Status      |
-| ------------------- | ------------------- | ----------- |
-| SauceDemo           | Manual Testing      | Completed   |
-| OrangeHRM           | Manual Testing      | Completed   |
-| Exploratory Testing | Exploratory Testing | Completed   |
-| SQL Practice        | SQL Fundamentals    | Completed   |
-| API Testing         | API Testing         | In Progress |
+---
 
-## Projects
+# Portfolio Summary
 
-### 1. SauceDemo
+| Project | Type | Status |
+|---------|------|--------|
+| SauceDemo | Manual Testing | ✅ Completed |
+| OrangeHRM | Manual Testing | ✅ Completed |
+| Exploratory Testing | Exploratory Testing | ✅ Completed |
+| SQL Practice | SQL Fundamentals | ✅ Completed |
+| API Testing | REST API Testing (Postman) | ✅ Completed |
+| Playwright Automation | Test Automation | 🚧 Coming Soon |
+
+---
+
+# Projects
+
+## 1. SauceDemo
 
 **Application Type:** E-commerce Web Application
 
 **Testing Type:** Manual Testing
 
-#### Modules Tested
+### Modules Tested
 
-* Login
-* Products
-* Cart
-* Checkout
+- Login
+- Products
+- Cart
+- Checkout
 
-#### Test Results
+### Test Results
 
-| Module   | Test Cases | Status |
-| -------- | ---------- | ------ |
-| Login    | 5          | PASS   |
-| Products | 10         | PASS   |
-| Cart     | 6          | PASS   |
-| Checkout | 6          | PASS   |
+| Module | Test Cases | Status |
+|--------|-----------:|--------|
+| Login | 5 | PASS |
+| Products | 10 | PASS |
+| Cart | 6 | PASS |
+| Checkout | 6 | PASS |
 
 **Total Test Cases:** 27
 
 **Pass Rate:** 100%
 
-#### Deliverables
+### Deliverables
 
-* Test Plan
-* Test Cases
-* Test Execution Results
-* Bug Reports
-* Test Evidence
+- Test Plan
+- Test Cases
+- Test Execution Results
+- Bug Reports
+- Test Evidence
 
 ---
 
-### 2. OrangeHRM
+## 2. OrangeHRM
 
 **Application Type:** Human Resource Management System (HRMS)
 
 **Testing Type:** Manual Testing
 
-#### Modules Tested
+### Modules Tested
 
-* Login
-* Dashboard
-* Admin
-* PIM
-* Leave
-* Recruitment
+- Login
+- Dashboard
+- Admin
+- PIM
+- Leave
+- Recruitment
 
-#### Test Results
+### Test Results
 
-| Module      | Test Cases | Status |
-| ----------- | ---------- | ------ |
-| Login       | 6          | PASS   |
-| Dashboard   | 5          | PASS   |
-| Admin       | 5          | PASS   |
-| PIM         | 5          | PASS   |
-| Leave       | 5          | PASS   |
-| Recruitment | 5          | PASS   |
+| Module | Test Cases | Status |
+|--------|-----------:|--------|
+| Login | 6 | PASS |
+| Dashboard | 5 | PASS |
+| Admin | 5 | PASS |
+| PIM | 5 | PASS |
+| Leave | 5 | PASS |
+| Recruitment | 5 | PASS |
 
 **Total Test Cases:** 31
 
 **Pass Rate:** 100%
 
-#### Deliverables
+### Deliverables
 
-* Test Plan
-* Test Cases
-* Test Execution Results
-* Bug Reports
-* Test Evidence
+- Test Plan
+- Test Cases
+- Test Execution Results
+- Bug Reports
+- Test Evidence
 
 ---
 
-### 3. Exploratory Testing
+## 3. Exploratory Testing
 
 **Application Type:** QA Practice Web Application
 
 **Testing Type:** Exploratory Testing
 
-#### Modules Explored
+### Modules Explored
 
-* Form Authentication
-* Dynamic Controls
-* Dropdown
-* Inputs
+- Form Authentication
+- Dynamic Controls
+- Dropdown
+- Inputs
 
-#### Test Results
+### Test Results
 
-| Area                | Status                |
-| ------------------- | --------------------- |
-| Form Authentication | PASS                  |
-| Dynamic Controls    | PASS (1 Defect Found) |
-| Dropdown            | PASS                  |
-| Inputs              | PASS                  |
+| Area | Status |
+|------|--------|
+| Form Authentication | PASS |
+| Dynamic Controls | PASS (1 Defect Found) |
+| Dropdown | PASS |
+| Inputs | PASS |
 
-#### Defects Identified
+### Defects Identified
 
-| Bug ID  | Severity | Status |
-| ------- | -------- | ------ |
-| BUG-001 | Medium   | Open   |
+| Bug ID | Severity | Status |
+|--------|----------|--------|
+| BUG-001 | Medium | Open |
 
-#### Deliverables
+### Deliverables
 
-* Test Notes
-* Bug Reports
-* Test Evidence
+- Test Notes
+- Bug Reports
+- Test Evidence
 
 ---
 
@@ -140,68 +147,129 @@ This repository contains manual testing and exploratory testing projects develop
 
 ### Topics Covered
 
-* SELECT
-* WHERE
-* ORDER BY
-* Aggregate Functions (COUNT, AVG, MIN, MAX, SUM)
-* INNER JOIN
-* LEFT JOIN
-* GROUP BY
-* HAVING
-
-## Skills Demonstrated
-
-* Manual Testing
-* Exploratory Testing
-* Test Planning
-* Test Case Design
-* Test Execution
-* Bug Reporting
-* SQL Fundamentals
-* Database Validation
-* Data Analysis
-* Git
-* GitHub
-* Markdown Documentation
+- SELECT
+- WHERE
+- ORDER BY
+- Aggregate Functions (COUNT, AVG, MIN, MAX, SUM)
+- INNER JOIN
+- LEFT JOIN
+- GROUP BY
+- HAVING
 
 ### Deliverables
 
-* SQL Query Files
-* Learning Notes
-* Documentation
+- SQL Query Files
+- Learning Notes
+- Documentation
 
 ---
 
-## Skills Demonstrated
+## 5. API Testing
 
-* Manual Testing
-* Exploratory Testing
-* Test Planning
-* Test Case Design
-* Test Execution
-* Defect Documentation
-* Bug Reporting
-* Session Testing
-* Authentication Testing
-* UI Testing
-* Evidence Collection
-* Git
-* GitHub
-* Markdown Documentation
+**Application Type:** JSONPlaceholder REST API
 
-## Tools Used
+**Testing Type:** Manual API Testing using Postman
 
-* Google Chrome
-* Git
-* GitHub
-* Markdown
-* OrangeHRM
-* SauceDemo
-* SQL
+### Topics Covered
+
+- GET Requests
+- POST Requests
+- PUT Requests
+- DELETE Requests
+- Query Parameters
+- HTTP Headers
+- Environment Variables
+- Collection Variables
+- Data Driven Testing (Configuration)
+- Response Validation
+- Status Code Validation
+
+### Test Results
+
+| Feature | Status |
+|---------|--------|
+| CRUD Operations | PASS |
+| Query Parameters | PASS |
+| HTTP Headers | PASS |
+| Environment Variables | PASS |
+| Data Driven Testing | Configured |
+
+### Deliverables
+
+- Test Cases
+- Test Execution Reports
+- Testing Evidence
+- QA Analysis Notes
+- Traceability Matrix
+- Postman Collection
+- Postman Environment
 
 ---
 
-More QA, SQL, API Testing, and Automation Testing projects will be added as part of my continuous learning journey.
+# Skills Demonstrated
+
+- Manual Testing
+- API Testing
+- REST API Testing
+- Exploratory Testing
+- SQL Fundamentals
+- Test Planning
+- Test Case Design
+- Test Execution
+- Bug Reporting
+- QA Documentation
+- Traceability Matrix
+- HTTP Methods
+- HTTP Status Codes
+- Response Validation
+- Query Parameters
+- HTTP Headers
+- Environment Variables
+- Collection Variables
+- Data Driven Testing
+- Evidence Collection
+- Git
+- GitHub
+- Markdown Documentation
+
+---
+
+# Tools Used
+
+- Postman
+- JSONPlaceholder REST API
+- Google Chrome
+- OrangeHRM
+- SauceDemo
+- SQL
+- Git
+- GitHub
+- Markdown
+
+---
+
+# Future Learning Roadmap
+
+This portfolio will continue to grow with new Quality Assurance projects, including:
+
+- 🚧 Playwright with TypeScript
+- 🚧 API Automation
+- 🚧 SQL Advanced Testing
+- 🚧 End-to-End Test Automation
+- 🚧 CI/CD Integration
+- 🚧 GitHub Actions
+- 🚧 Performance Testing
+- 🚧 Mobile Testing
+
+---
+
+# About Me
+
+I am an **Electronic Engineer** currently building my career in **Quality Assurance**.
+
+This portfolio reflects my continuous learning journey, practical experience, and commitment to software quality through well-structured testing projects and professional documentation.
+
+My goal is to become a highly skilled QA Engineer specializing in both Manual and Automation Testing.
 
 ---
 
