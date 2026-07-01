@@ -4,30 +4,60 @@
 
 ---
 
-# QA Portfolio
+# QA Engineer Portfolio
 
 Welcome to my Quality Assurance portfolio.
 
-This repository showcases my learning journey and hands-on projects in **Manual Testing**, **API Testing**, **Exploratory Testing**, and **SQL Fundamentals**. Each project demonstrates industry-standard QA practices, including test planning, test case design, test execution, bug reporting, evidence collection, and technical documentation.
+This repository showcases my learning journey through hands-on projects organized by QA disciplines, including **Manual Testing**, **API Testing**, **Database Testing**, and **Automation Testing**.
 
-My goal is to continuously expand this portfolio with automation, database testing, and CI/CD projects while developing the skills required for a professional QA Engineer role.
+Each project demonstrates industry-standard QA practices such as test planning, test case design, test execution, bug reporting, evidence collection, traceability, and technical documentation.
+
+My goal is to continuously expand this portfolio with automation frameworks, database validation, API automation, and CI/CD while developing the skills required for a professional QA Engineer role.
+
+---
+
+# Repository Structure
+
+```text
+QA-Engineer-Portfolio
+│
+├── Manual-Testing
+│   ├── SauceDemo
+│   ├── OrangeHRM
+│   └── ExploratoryTesting
+│
+├── API-Testing
+│   └── JSONPlaceholder
+│
+├── Database-Testing
+│   └── SQL-Practice
+│
+├── Automation-Testing
+│   └── (Coming Soon)
+│
+├── docs
+│
+└── README.md
+```
 
 ---
 
 # Portfolio Summary
 
-| Project | Type | Status |
-|---------|------|--------|
-| SauceDemo | Manual Testing | ✅ Completed |
-| OrangeHRM | Manual Testing | ✅ Completed |
-| Exploratory Testing | Exploratory Testing | ✅ Completed |
-| SQL Practice | SQL Fundamentals | ✅ Completed |
-| API Testing | REST API Testing (Postman) | ✅ Completed |
-| Playwright Automation | Test Automation | 🚧 Coming Soon |
+| QA Area | Projects | Status |
+|---------|----------|--------|
+| Manual Testing | SauceDemo, OrangeHRM, Exploratory Testing | ✅ Completed |
+| API Testing | JSONPlaceholder REST API | ✅ Completed |
+| Database Testing | SQL Practice | ✅ Completed |
+| Automation Testing | Playwright + TypeScript | 🚧 Coming Soon |
 
 ---
 
-# Projects
+# Project Details
+
+# Manual Testing
+
+---
 
 ## 1. SauceDemo
 
@@ -141,32 +171,11 @@ My goal is to continuously expand this portfolio with automation, database testi
 
 ---
 
-## 4. SQL Practice
-
-**Project Type:** SQL Fundamentals for Quality Assurance
-
-### Topics Covered
-
-- SELECT
-- WHERE
-- ORDER BY
-- Aggregate Functions (COUNT, AVG, MIN, MAX, SUM)
-- INNER JOIN
-- LEFT JOIN
-- GROUP BY
-- HAVING
-
-### Deliverables
-
-- SQL Query Files
-- Learning Notes
-- Documentation
+# API Testing
 
 ---
 
-## 5. API Testing
-
-**Application Type:** JSONPlaceholder REST API
+## 1. JSONPlaceholder REST API
 
 **Testing Type:** Manual API Testing using Postman
 
@@ -180,9 +189,9 @@ My goal is to continuously expand this portfolio with automation, database testi
 - HTTP Headers
 - Environment Variables
 - Collection Variables
-- Data Driven Testing (Configuration)
+- Data Driven Testing
 - Response Validation
-- Status Code Validation
+- HTTP Status Codes
 
 ### Test Results
 
@@ -206,19 +215,73 @@ My goal is to continuously expand this portfolio with automation, database testi
 
 ---
 
+# Database Testing
+
+---
+
+## 1. SQL Practice
+
+**Project Type:** SQL Fundamentals for Quality Assurance
+
+### Topics Covered
+
+- SELECT
+- WHERE
+- ORDER BY
+- Aggregate Functions
+- INNER JOIN
+- LEFT JOIN
+- GROUP BY
+- HAVING
+
+### Deliverables
+
+- SQL Query Files
+- Learning Notes
+- Documentation
+
+---
+
+# Automation Testing
+
+---
+
+## Coming Soon
+
+Projects planned for this section include:
+
+- Playwright + TypeScript
+- API Automation
+- End-to-End Test Automation
+- Advanced SQL Testing
+- GitHub Actions (CI/CD)
+- Performance Testing
+- Mobile Testing (Appium)
+
+---
+
 # Skills Demonstrated
 
-- Manual Testing
-- API Testing
-- REST API Testing
-- Exploratory Testing
-- SQL Fundamentals
+## Manual Testing
+
 - Test Planning
 - Test Case Design
 - Test Execution
 - Bug Reporting
-- QA Documentation
-- Traceability Matrix
+- Exploratory Testing
+- Evidence Collection
+
+### Projects
+
+- SauceDemo
+- OrangeHRM
+- Exploratory Testing
+
+---
+
+## API Testing
+
+- REST API Testing
 - HTTP Methods
 - HTTP Status Codes
 - Response Validation
@@ -227,10 +290,33 @@ My goal is to continuously expand this portfolio with automation, database testi
 - Environment Variables
 - Collection Variables
 - Data Driven Testing
-- Evidence Collection
+- Traceability Matrix
+- QA Documentation
+
+### Projects
+
+- JSONPlaceholder REST API
+
+---
+
+## Database Testing
+
+- SQL Fundamentals
+- Database Validation
+- Data Analysis
+
+### Projects
+
+- SQL Practice
+
+---
+
+## Version Control & Documentation
+
 - Git
 - GitHub
-- Markdown Documentation
+- Markdown
+- Professional QA Documentation
 
 ---
 
@@ -250,26 +336,25 @@ My goal is to continuously expand this portfolio with automation, database testi
 
 # Future Learning Roadmap
 
-This portfolio will continue to grow with new Quality Assurance projects, including:
+This portfolio will continue to grow with professional QA projects covering:
 
-- 🚧 Playwright with TypeScript
-- 🚧 API Automation
-- 🚧 SQL Advanced Testing
-- 🚧 End-to-End Test Automation
-- 🚧 CI/CD Integration
-- 🚧 GitHub Actions
-- 🚧 Performance Testing
-- 🚧 Mobile Testing
+- Manual Testing
+- API Testing
+- Database Testing
+- Automation Testing
+- CI/CD
+- Performance Testing
+- Mobile Testing
 
 ---
 
 # About Me
 
-I am an **Electronic Engineer** currently building my career in **Quality Assurance**.
+I am an **Electronic Engineer** currently transitioning into **Quality Assurance Engineering**.
 
-This portfolio reflects my continuous learning journey, practical experience, and commitment to software quality through well-structured testing projects and professional documentation.
+Through this portfolio, I document my continuous learning journey by developing real-world QA projects that demonstrate both technical knowledge and professional documentation practices.
 
-My goal is to become a highly skilled QA Engineer specializing in both Manual and Automation Testing.
+My objective is to become a QA Engineer with strong skills in Manual Testing, API Testing, Database Validation, and Test Automation using modern industry tools.
 
 ---
 
