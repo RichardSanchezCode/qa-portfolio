@@ -23,8 +23,10 @@ QA-Engineer-Portfolio
 │
 ├── Manual-Testing
 │   ├── SauceDemo
-│   ├── OrangeHRM
-│   └── ExploratoryTesting
+│   └── OrangeHRM    
+│
+├── Exploratory-Testing
+│   └── TheInternet
 │
 ├── API-Testing
 │   └── JSONPlaceholder
@@ -46,7 +48,8 @@ QA-Engineer-Portfolio
 
 | QA Area | Projects | Status |
 |---------|----------|--------|
-| Manual Testing | SauceDemo, OrangeHRM, Exploratory Testing | ✅ Completed |
+| Manual Testing | SauceDemo, OrangeHRM | ✅ Completed |
+| Exploratory Testing | TheInternet | ✅ Completed |
 | API Testing | JSONPlaceholder REST API | ✅ Completed |
 | Database Testing | SQL Practice | ✅ Completed |
 | Automation Testing | Playwright + TypeScript | 🚧 Coming Soon |
@@ -135,7 +138,11 @@ QA-Engineer-Portfolio
 
 ---
 
-## 3. Exploratory Testing
+# Exploratory Testing
+
+---
+
+## 1. TheInternet
 
 **Application Type:** QA Practice Web Application
 
