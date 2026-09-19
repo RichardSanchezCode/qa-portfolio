@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/QA_Banner.png" alt="SIMCCI Banner" width="100%">
+  <img src="assets/QA_Banner.png" alt="SIMCCI Banner" width="100%">
 </p>
 
 ---
@@ -366,5 +366,5 @@ My objective is to become a QA Engineer with strong skills in Manual Testing, AP
 ---
 
 <p align="center">
-  <img src="docs/QA_Logo.png" width="250">
+  <img src="assets/QA_Logo.png" width="250">
 </p>
