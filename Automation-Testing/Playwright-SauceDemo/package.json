@@ -1,0 +1,15 @@
+{
+  "name": "playwright-saucedemo-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio starter UI automation tests for SauceDemo",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "typescript": "^5.8.0"
+  }
+}

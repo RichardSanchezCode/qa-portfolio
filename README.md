@@ -23,7 +23,7 @@ QA-Engineer-Portfolio
 │
 ├── Manual-Testing
 │   ├── SauceDemo
-│   └── OrangeHRM    
+│   └── OrangeHRM
 │
 ├── Exploratory-Testing
 │   └── TheInternet
@@ -34,10 +34,31 @@ QA-Engineer-Portfolio
 ├── Database-Testing
 │   └── SQL-Practice
 │
-├── Automation-Testing
-│   └── (Coming Soon)
+├── Automation-Testing/
+│   ├── README.md
+│   └── Playwright-SauceDemo/
+│       ├── README.md
+│       ├── package.json
+│       ├── playwright.config.ts
+│       ├── tests/
+│       │   ├── login.spec.ts
+│       │   ├── products.spec.ts
+│       │   └── checkout.spec.ts
+│       ├── pages/
+│       ├── test-data/
+│       └── docs/
 │
-├── docs
+├── Performance-Testing/
+│   ├── README.md
+│   └── JMeter/
+│       ├── README.md
+│       ├── test-plans/
+│       ├── test-cases/
+│       ├── test-data/
+│       ├── reports/
+│       └── docs/
+│
+├── assets
 │
 └── README.md
 ```
@@ -52,7 +73,8 @@ QA-Engineer-Portfolio
 | Exploratory Testing | TheInternet | ✅ Completed |
 | API Testing | JSONPlaceholder REST API | ✅ Completed |
 | Database Testing | SQL Practice | ✅ Completed |
-| Automation Testing | Playwright + TypeScript | 🚧 Coming Soon |
+| Automation Testing | Playwright + TypeScript (Playwright-SauceDemo) | ✅ Completed |
+| Performance Testing | JMeter | ✅ Completed |
 
 ---
 
@@ -253,17 +275,75 @@ QA-Engineer-Portfolio
 
 ---
 
+## 1. Playwright-SauceDemo
+
+**Application Type:** E-commerce Web Application
+
+**Testing Type:** Automation Testing
+
+**Tech Stack:** Playwright + TypeScript
+
+### Modules Automated
+
+- Login (`login.spec.ts`)
+- Products (`products.spec.ts`)
+- Checkout (`checkout.spec.ts`)
+
+### Project Structure
+
+- `tests/` – Automated test specs
+- `pages/` – Page layer
+- `test-data/` – Test data
+- `docs/` – Project documentation
+- `playwright.config.ts` – Playwright configuration
+- `package.json` – Project dependencies and scripts
+
+### Deliverables
+
+- Automated Test Scripts
+- Playwright Configuration
+- Test Data
+- Project Documentation
+
+---
+
 ## Coming Soon
 
 Projects planned for this section include:
 
-- Playwright + TypeScript
 - API Automation
 - End-to-End Test Automation
 - Advanced SQL Testing
 - GitHub Actions (CI/CD)
-- Performance Testing
 - Mobile Testing (Appium)
+
+---
+
+# Performance Testing
+
+---
+
+## 1. JMeter
+
+**Testing Type:** Performance Testing
+
+**Tool:** Apache JMeter
+
+### Project Structure
+
+- `test-plans/` – JMeter test plans
+- `test-cases/` – Performance test cases
+- `test-data/` – Test data
+- `reports/` – Execution reports
+- `docs/` – Project documentation
+
+### Deliverables
+
+- Test Plans
+- Test Cases
+- Test Data
+- Execution Reports
+- Documentation
 
 ---
 
@@ -318,6 +398,32 @@ Projects planned for this section include:
 
 ---
 
+## Automation Testing
+
+- Test Automation with Playwright
+- TypeScript
+- Test Data Management
+- Automated Regression Scripts
+
+### Projects
+
+- Playwright-SauceDemo
+
+---
+
+## Performance Testing
+
+- Performance Test Planning
+- Load Test Design with JMeter
+- Test Data Management
+- Performance Reporting
+
+### Projects
+
+- JMeter
+
+---
+
 ## Version Control & Documentation
 
 - Git
@@ -338,6 +444,9 @@ Projects planned for this section include:
 - Git
 - GitHub
 - Markdown
+- Playwright
+- TypeScript
+- Apache JMeter
 
 ---
 
