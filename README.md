@@ -35,28 +35,10 @@ QA-Engineer-Portfolio
 │   └── SQL-Practice
 │
 ├── Automation-Testing/
-│   ├── README.md
 │   └── Playwright-SauceDemo/
-│       ├── README.md
-│       ├── package.json
-│       ├── playwright.config.ts
-│       ├── tests/
-│       │   ├── login.spec.ts
-│       │   ├── products.spec.ts
-│       │   └── checkout.spec.ts
-│       ├── pages/
-│       ├── test-data/
-│       └── docs/
 │
 ├── Performance-Testing/
-│   ├── README.md
 │   └── JMeter/
-│       ├── README.md
-│       ├── test-plans/
-│       ├── test-cases/
-│       ├── test-data/
-│       ├── reports/
-│       └── docs/
 │
 ├── assets
 │
@@ -73,8 +55,10 @@ QA-Engineer-Portfolio
 | Exploratory Testing | TheInternet | ✅ Completed |
 | API Testing | JSONPlaceholder REST API | ✅ Completed |
 | Database Testing | SQL Practice | ✅ Completed |
-| Automation Testing | Playwright + TypeScript (Playwright-SauceDemo) | ✅ Completed |
-| Performance Testing | JMeter | ✅ Completed |
+| Automation Testing | Playwright | ✅ Completed* |
+| Performance Testing | JMeter | ✅ Completed* |
+
+\* Detailed results, data and evidence for these projects are not published due to company confidentiality.
 
 ---
 
