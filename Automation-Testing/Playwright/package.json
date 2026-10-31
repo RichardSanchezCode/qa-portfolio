@@ -1,8 +1,8 @@
 {
-  "name": "playwright-saucedemo-portfolio",
+  "name": "qa-playwright-portfolio-ala-azul",
   "version": "1.0.0",
   "private": true,
-  "description": "Portfolio starter UI automation tests for SauceDemo",
+  "description": "Documentación y plantilla de automatización E2E del flujo de emisión Ala Azul con Playwright.",
   "scripts": {
     "test": "playwright test",
     "test:headed": "playwright test --headed",
@@ -10,6 +10,6 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.55.0",
-    "typescript": "^5.8.0"
+    "dotenv": "^16.4.7"
   }
 }

@@ -35,7 +35,7 @@ QA-Engineer-Portfolio
 │   └── SQL-Practice
 │
 ├── Automation-Testing/
-│   └── Playwright-SauceDemo/
+│   └── Playwright/
 │
 ├── Performance-Testing/
 │   └── JMeter/
@@ -55,10 +55,10 @@ QA-Engineer-Portfolio
 | Exploratory Testing | TheInternet | ✅ Completed |
 | API Testing | JSONPlaceholder REST API | ✅ Completed |
 | Database Testing | SQL Practice | ✅ Completed |
-| Automation Testing | Playwright | ✅ Completed* |
-| Performance Testing | JMeter | ✅ Completed* |
+| Automation Testing | Playwright (Nelumbo Consultores) | ✅ Completed* |
+| Performance Testing | JMeter (Nelumbo Consultores) | ✅ Completed* |
 
-\* Detailed results, data and evidence for these projects are not published due to company confidentiality.
+\* These projects were carried out at Nelumbo Consultores. Detailed results, data and evidence for these projects are not published due to company confidentiality.
 
 ---
 
@@ -267,6 +267,8 @@ QA-Engineer-Portfolio
 
 **Tech Stack:** Playwright + TypeScript
 
+**Context:** Project carried out at Nelumbo Consultores.
+
 ### Modules Automated
 
 - Login (`login.spec.ts`)
@@ -312,6 +314,8 @@ Projects planned for this section include:
 **Testing Type:** Performance Testing
 
 **Tool:** Apache JMeter
+
+**Context:** Project carried out at Nelumbo Consultores.
 
 ### Project Structure
 
